@@ -1,4 +1,4 @@
-let btnApi = document.getElementById("projeto-api");
+/* let btnApi = document.getElementById("projeto-api");
 btnApi.addEventListener("click", videoapi);
 function videoapi() {
     if (document.getElementById("print-api").style.display === "none") {
@@ -7,4 +7,4 @@ function videoapi() {
         document.getElementById("print-api").style.display = "none"
     }
 
-}
+} */
