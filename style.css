@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightslategray;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+#imagem-perfil {
+    border-radius: 100%;
+    margin-top: 450px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid lightgrey;
+    transition: all 240ms linear;
+    display: flex;
+    position: absolute;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 240px;
+    border: 2px solid lightgray;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 30px lightgrey;
+    height: 360px;
+    padding: 30px;
+}
+
+#lista-projetos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 120px;
+    gap: 24px;
+}
+
+.projeto {
+    border: 1px solid black;
+    border-radius: 33px;
+    box-shadow: 2px 2px 4px rgb(44, 43, 43);
+    padding: 6px 39px;
+    transition: all 210ms linear;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto:hover {
+    scale: 96%;
+}
+
+div ul a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+div ul {
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 330px;
+    position: absolute;
+}
+
+.social-logo {
+    font-size: 24px;
+    margin: 12px;
+    transition: all 240ms linear;
+    color: lightcyan;
+}
+
+.social-logo:hover {
+    scale: 120%;
+}
+
+#print-api {
+    display: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
