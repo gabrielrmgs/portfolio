@@ -48,6 +48,7 @@
     box-shadow: 2px 2px 30px lightcyan;
     height: 360px;
     padding: 30px;
+    padding-top: 90px;
     z-index: 98;
 }
 
@@ -154,6 +155,24 @@ div ul {
     border: 2px solid lightcyan;
 }
 
+.projetos h1 {
+    color: lightcyan;
+    margin-top: 72px;
+}
+
+.projetos p {
+    color: lightcyan;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    margin-bottom: 390px;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 1170px) {
@@ -210,6 +229,15 @@ div ul {
         justify-content: center;
         z-index: 98;
         width: 210px;
+    }
+
+    .desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+        margin-bottom: 390px;
     }
 
 }
